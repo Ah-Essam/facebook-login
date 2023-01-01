@@ -1,0 +1,197 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+a{text-decoration: none;}
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: inherit; font-size: 12px;
+}
+.font-family {
+	font-family: HelveticaNeueW01-55Roma, HelveticaNeueW02-55Roma, HelveticaNeueW10-55Roma, sans-serif;
+}
+.container {
+    width: 100%;
+    height: 720px;
+    background-color: #F0F2F5;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 200px;
+}
+.logo {
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.f-logo {
+    height: 110px;
+    margin: -28px;
+    padding-bottom: 16px;
+}
+.f-discription {
+    width: 500px;
+    font-size: 28px;
+    font-weight: 100;
+}
+.login-container {
+    width: 400px;
+    height: 455px;
+    margin-top: -65px;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+#email {
+    display: inline-block;
+    border: 1px solid #dddfe2;
+    display: inline-block;
+    font-size: 17px;
+    height: 45px;
+    width: 350px;
+    color: #1d2129;
+    padding: 24px 16px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 15px;
+}
+#pass {
+    display: inline-block;
+    border: 1px solid #dddfe2;
+    display: inline-block;
+    font-size: 17px;
+    height: 45px;
+    width: 350px;
+    color: #1d2129;
+    padding: 24px 16px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 15px;
+}
+.log-btn {
+    background-color: #166cdd;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 20px;
+    width: 350px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    height: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.f-pass {
+    color: #1877f2;
+    font-size: 14px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.f-pass:hover {
+    text-decoration: underline;
+}
+.line {
+    border-top: 1px solid #dadde1;
+    width: 350px;
+    margin-bottom: 25px;
+}
+.sign-btn {
+    font-size: 17px;
+    background-color: #42b72a;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+    color: #fff;
+    width: 185px;
+    height: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.c-page {
+    text-align: center;
+    margin-top: 30px;
+    color: #1c1e21;
+    font-size: 14px;
+}
+.c-p {
+    font-weight: 600;
+    color: #1c1e21;
+}
+.c-p:hover {
+    text-decoration: underline;
+}
+.links {
+    width: 980px;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 12px;
+}
+.langs {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+.hovered:hover{
+    text-decoration: underline;
+}
+.li {
+    color: #737373;
+    padding-right: 10px;
+}
+.plus-btn {
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid #737373;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;cursor: pointer;
+}
+.line2 {
+    border-top: 1px solid #dadde1;
+    width: 960px;
+    margin-bottom: 10px;
+}
+.the-links {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.link{
+    color: #737373;
+    padding-right: 20px;
+    line-height: 1.6em;
+    font-size: 12px;
+}
+.meta-cr {
+    margin-top: 20px;
+    color: #737373;
+    font-size: 12px;
+}
